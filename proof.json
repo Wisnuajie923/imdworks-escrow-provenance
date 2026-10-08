@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "title": "Produce a reproducible escrow bytecode provenance report",
+  "bounty_uuid": "863d4bb0-630a-42b3-9ce3-fdf329ddc339",
+  "bounty_number": 14,
+  "escrow_id": 9,
+  "chain_id": 4663,
+  "author": "0xD7AFdc66e0C1Cca76Aca8537f30d10a324E246f1",
+  "signoff": "enueex https://x.com/AjaPawang",
+  "repository": "https://github.com/Wisnuajie923/imdworks-escrow-provenance",
+  "repository_commit": "56dcdaa98a9413ab9e57adb83bcc1423c04541ef",
+  "reproduction": "git clone https://github.com/Wisnuajie923/imdworks-escrow-provenance.git && cd imdworks-escrow-provenance && git checkout 56dcdaa98a9413ab9e57adb83bcc1423c04541ef && python3 run_tests.py",
+  "artifact_url": "https://codeload.github.com/Wisnuajie923/imdworks-escrow-provenance/tar.gz/56dcdaa98a9413ab9e57adb83bcc1423c04541ef",
+  "artifact_sha256": "61f64c9e9fe3241a2ec903bbbad02e0ceb5fa4628cd6ac3acae647b0cf409406",
+  "report_url": "https://raw.githubusercontent.com/Wisnuajie923/imdworks-escrow-provenance/56dcdaa98a9413ab9e57adb83bcc1423c04541ef/report.json",
+  "report_sha256": "93918f2fc5743df591a37fe900e119625c59199dacbb082b01228fdbc0c81a78",
+  "fresh_archive_replay_exit": 0,
+  "dependencies": "Python standard library; pinned solc binary for #14",
+  "limitations": [
+    "Creator-selected 1 USDG reward; submission does not guarantee payment.",
+    "No wallet, credential, approval, transfer or withdrawal is part of the artifact.",
+    "#14 compares pinned Sourcify runtime input and explicitly does not claim fresh RPC-chain data."
+  ],
+  "results": {
+    "tests": 3,
+    "runtime_bytes": 6258,
+    "mismatch_count": 0,
+    "immutable_substitutions": 9
+  }
+}
