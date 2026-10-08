@@ -1,0 +1,18 @@
+test_cbor_exact_version_and_length (__main__.ComparisonTests.test_cbor_exact_version_and_length) ... FAIL
+test_full_bytes_no_mask (__main__.ComparisonTests.test_full_bytes_no_mask) ... ok
+test_patch_every_reference_and_reject_invalid (__main__.ComparisonTests.test_patch_every_reference_and_reject_invalid) ... ok
+
+======================================================================
+FAIL: test_cbor_exact_version_and_length (__main__.ComparisonTests.test_cbor_exact_version_and_length)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/imdworks-work/escrow-provenance/test_helpers.py", line 43, in test_cbor_exact_version_and_length
+    self.assertTrue(hasattr(h, 'metadata_tail'), 'metadata parser missing')
+AssertionError: False is not true : metadata parser missing
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+FAILED (failures=1)
+
+EXIT=1

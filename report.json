@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "compiler": "0.8.29+commit.ab55807c",
+  "optimizer_runs": 200,
+  "evm_version": "paris",
+  "viaIR": false,
+  "runtime_bytes": 6258,
+  "runtime_sha256": "19ddd1d060882d416a2530e163f51ad769f91878159530bbfe792ec53f6a8c16",
+  "compiled_unpatched_sha256": "04797d01318e406b324700d994cd6120439c9a5b3e45cca15131009d4aaac4f1",
+  "patched_runtime_sha256": "19ddd1d060882d416a2530e163f51ad769f91878159530bbfe792ec53f6a8c16",
+  "immutable_substitutions": [
+    {
+      "ast_id": "757",
+      "start": 487,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 1279,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 1431,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 1553,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 1616,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 1768,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 4543,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 4673,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    },
+    {
+      "ast_id": "757",
+      "start": 4737,
+      "length": 32,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000",
+      "after": "0000000000000000000000005fc5360d0400a0fd4f2af552add042d716f1d168"
+    }
+  ],
+  "comparison": {
+    "equal": true,
+    "expected_length": 6258,
+    "observed_length": 6258,
+    "mismatch_count": 0,
+    "mismatch_offsets": []
+  },
+  "metadata": {
+    "start": 6246,
+    "cbor_length": 10,
+    "length_suffix": "000a",
+    "cbor_hex": "a164736f6c634300081d",
+    "solc_version": "0.8.29",
+    "whole_trailer_length": 12
+  },
+  "negative_controls": {
+    "wrong_token_fails": true,
+    "source_byte_change_fails": true
+  },
+  "live_rpc_fetch": "not performed; runtime is the pinned public Sourcify onchainBytecode input",
+  "limitations": [
+    "Local rebuild uses pinned published Sourcify standard-json input and verified compiler binary; no claim of live RPC freshness.",
+    "This is bytecode provenance evidence, not a formal Solidity proof."
+  ]
+}

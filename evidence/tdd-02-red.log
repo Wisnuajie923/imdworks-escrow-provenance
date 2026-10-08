@@ -1,0 +1,17 @@
+test_full_bytes_no_mask (__main__.ComparisonTests.test_full_bytes_no_mask) ... ok
+test_patch_every_reference_and_reject_invalid (__main__.ComparisonTests.test_patch_every_reference_and_reject_invalid) ... FAIL
+
+======================================================================
+FAIL: test_patch_every_reference_and_reject_invalid (__main__.ComparisonTests.test_patch_every_reference_and_reject_invalid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/imdworks-work/escrow-provenance/test_helpers.py", line 18, in test_patch_every_reference_and_reject_invalid
+    self.assertTrue(hasattr(h, 'patch_immutables'), 'immutable patch helper missing')
+AssertionError: False is not true : immutable patch helper missing
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.012s
+
+FAILED (failures=1)
+
+EXIT=1

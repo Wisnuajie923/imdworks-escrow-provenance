@@ -1,0 +1,8 @@
+test_full_bytes_no_mask (__main__.ComparisonTests.test_full_bytes_no_mask) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+
+EXIT=0

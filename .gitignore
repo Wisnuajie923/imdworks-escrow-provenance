@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+# Local/editor noise
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Temporary command output
+*.tmp
+*.log.tmp

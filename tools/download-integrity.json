@@ -1,0 +1,17 @@
+{
+  "manifest_url": "https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/linux-amd64/list.json",
+  "binary_url": "https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/linux-amd64/solc-linux-amd64-v0.8.29+commit.ab55807c",
+  "entry": {
+    "path": "solc-linux-amd64-v0.8.29+commit.ab55807c",
+    "version": "0.8.29",
+    "build": "commit.ab55807c",
+    "longVersion": "0.8.29+commit.ab55807c",
+    "keccak256": "0x13779247192b8f063c5e330f918e160c7d7315aa2950e6610f589cb19fc8bb1a",
+    "sha256": "0x18d418a40dc04d17656b1b5c8a7b35cfbab8942b51f38d005d5b59e8aa6637e0",
+    "urls": [
+      "dweb:/ipfs/QmURReQt8G4f8ZnZsJ6qcix1Ch2ga1pyrVW1x65feSwjmk"
+    ]
+  },
+  "actual_sha256": "0x18d418a40dc04d17656b1b5c8a7b35cfbab8942b51f38d005d5b59e8aa6637e0",
+  "primary_failure": "binaries.soliditylang.org HTTP 403"
+}
